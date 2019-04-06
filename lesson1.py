@@ -1,6 +1,6 @@
 #print "Watch out, World!"
 
-twitter = "@hearmecode"
+# twitter = "@hearmecode"
 
 #print twitter
 
@@ -54,15 +54,47 @@ twitter = "@hearmecode"
 # print "Area Code: {0} \nLocal: {1} \nDifferent Format:({2}){3}" .format(phone[0:3],phone[4:],phone[0:3],phone[4:])
 # print " "
 
-email = "shannon@hearmecode.com"
-print email.find("@")
-print email.find("z")
+# email = "shannon@hearmecode.com"
+# print email.find("@")
+# print email.find("z")
+# -1 means not found
 
 #print twitter.replace("@","#")
 
-twitter = twitter.replace("@","#")
+# twitter = twitter.replace("@","#")
 
-print twitter
+# print twitter
+# print tweet
+
+# length = len(tweet)
+# print length 
+
+# student = 10
+# capacity = 50
+
+# if student < capacity:
+# 	print "Keep recruiting"
+# else: 
+# 	print "End ticket signups"
+
+volunteers = 95
+goal = 100
+
+if volunteers < goal:
+	numberleft = goal-volunteers
+	if numberleft <=10:
+		print "So close! you need {0} more to meet the goal" .format(numberleft)
+	else:
+		print "Keep recruiting"
+		print "You need {0} more to meet the goal" .format(numberleft)
+elif volunteers == goal:
+	print "You met the goal!"
+elif volunteers > goal:
+	print "Stop recruiting"
+	print "You have recruited {0} too many" .format(volunteers-goal)
+else: 
+	print "not sure what is going on here"
+
 
 
 
